@@ -69,7 +69,7 @@ a:hover {
 }
 
 /* Choice Class Display and Padding Properties */
-#choices {
+.choices {
     display: inline-block;
     padding: 5px;
 }
@@ -88,4 +88,100 @@ a:hover {
 /* Multiple Choice hover Background Color */
 .choice1:hover, .choice2:hover, .choice3:hover, .choice4:hover {
     background-color: #a14ec8;
+}
+
+
+/* Properties for right and wrong classes */
+#correct, #wrong {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-top: solid 1px #3e3c3c;
+    margin-top: 25px;
+    color: #3e3c3c;
+    opacity: .5;
+    display: none;
+}
+
+/* Styling Properties for Logging "Highest Score"*/
+#highest-score {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    display: none;
+}
+
+/* Styling Properties for "All Done" heading in Highest Score class */
+#highest-score h3 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+/* "Final Score" class padding properties */
+.final-score {
+    padding-bottom: 10px;
+}
+
+/* "Highest Score" class display properties */
+.highest-score div {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/* "Submit" Button Styling Properties */
+.submit {
+    padding: 5px;
+    margin-left: 5px;
+    background-color: rgb(109, 8, 109);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* "Submit" Button hover background color */
+.submit:hover {
+    background-color: #a14ec8;
+}
+
+/*Styling Properties for "Bank Score" id*/
+#bank-score {
+    text-align: left;
+    margin-left: 33%;
+    margin-right: 33%;
+    display: none;
+}
+
+/* Margin and Padding Properties */
+#bank-score h3 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+/* "Score Data" ordered list (ol) Margins and Padding Properties */
+.score-data {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    width: 100%;
+}
+
+
+
+/* "Back" and "Clear" Button Styling Properties */
+.back, .clear {
+    padding: 5px;
+    background-color: rgb(109, 8, 109);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* "Back" and "Clear" Button Hover Background Color */
+.back:hover, .clear:hover {
+    background-color: #a14ec8;
+}
+
+/* "Back" Button Margin Property */
+.back {
+    margin-right: 5px;
 }
