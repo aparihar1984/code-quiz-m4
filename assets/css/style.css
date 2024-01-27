@@ -1,0 +1,52 @@
+/* WebPage Font and Cursor Properties */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+}
+
+/*Intro Page Styling Properties*/
+#intro-page {
+    text-align: center;
+}
+
+/* "Start Quiz" Button Properties */
+.start-quiz {
+    padding: 10px;
+    background-color: rgb(109, 8, 109);
+    color: white;
+    border-radius: 5px;
+    width: max-content;
+}
+
+/* "Start Quiz" Button Hovering Background Color */
+.start-quiz:hover {
+    background-color: #a14ec8;
+}
+
+/*Header Styling Properties*/
+header {
+    height: 75px;
+}
+
+/* "View High Scores" Link Styling Properties */
+header a {
+    float: left;
+    padding: 20px;
+    color: rgb(109, 8, 109);
+}
+
+/* Removes Underline from "View High Scores" link */
+a:link {
+    text-decoration: none;
+}
+
+/* "View High Scores" Link Hovering Background Color */
+a:hover {
+    color: #a14ec8;
+}
+
+/* Quiz Timer Properties */
+#quiz-timer {
+    float: right;
+    padding: 20px;
+}
