@@ -50,3 +50,42 @@ a:hover {
     float: right;
     padding: 20px;
 }
+
+
+
+/* Questions Page Styling Properties*/
+/* Text Alignment and Margins Settings For "Quiz-Questions" Class */
+.quiz-questions {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
+}
+
+/* Margin and Height Properties for <h3> which is .ask in this case */
+.ask {
+    margin: 5px;
+    height: 50px;
+}
+
+/* Choice Class Display and Padding Properties */
+#choices {
+    display: inline-block;
+    padding: 5px;
+}
+
+/* Multiple Choice Properties */
+.choice1, .choice2, .choice3, .choice4 {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(109, 8, 109);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* Multiple Choice hover Background Color */
+.choice1:hover, .choice2:hover, .choice3:hover, .choice4:hover {
+    background-color: #a14ec8;
+}

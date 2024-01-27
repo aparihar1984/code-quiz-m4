@@ -1,7 +1,10 @@
-<!DOCTYPE html> 
+<!-- Defining what DOCTYPE we're using.  HTML in this case. -->
+<!DOCTYPE html>
+<!-- Defining the language: English -->
 <html lang="en"> 
   
-<head> 
+<head>
+    <!-- href attribute points to the path of the CSS reference page stylesheet. -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +12,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <!--header that features "View high scores" and Timer-->
+    <!--site header function that features "View high scores" and Timer-->
     <header>
         <a href="#score-save">View high scores</a>
         <div id="quiz-timer">Time: 0</div>
@@ -18,10 +21,24 @@
     <main>
         <!--div for intro page-->
         <div id ="intro-page">
+            <!-- Intro Page Heading -->
             <h2>Coding Quiz Challenge</h2>
+            <!-- Intro Page Text -->
             <p>Try to answer the following code-related questions within the time limit.</p>
             <p>Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <!-- Start Quiz Button Tag -->
             <button class="start-quiz">Start Quiz</button>
         </div>
+                <!---div for quiz questions and multiple choice selections-->
+                <div class="quiz-questions">
+                    <h3 class="ask"></h3>
+                    <!-- Defining our Multiple Choices -->
+                    <div id="choices">
+                        <div class="choice1"></div>
+                        <div class="choice2"></div>
+                        <div class="choice3"></div>
+                        <div class="choice4"></div>
+                    </div>
+                </div>
     </main>
 </body>
