@@ -14,6 +14,7 @@
 <body>
     <!--site header function that features "View high scores" and Timer-->
     <header>
+        <!-- Link and to view the High Scores -->
         <a href="#score-save">View high scores</a>
         <div id="quiz-timer">Time: 0</div>
     </header>
@@ -29,16 +30,37 @@
             <!-- Start Quiz Button Tag -->
             <button class="start-quiz">Start Quiz</button>
         </div>
-                <!---div for quiz questions and multiple choice selections-->
-                <div class="quiz-questions">
-                    <h3 class="ask"></h3>
-                    <!-- Defining our Multiple Choices -->
-                    <div id="choices">
-                        <div class="choice1"></div>
-                        <div class="choice2"></div>
-                        <div class="choice3"></div>
-                        <div class="choice4"></div>
-                    </div>
-                </div>
+        <!---div for quiz questions and multiple choice selections-->
+        <div id="quiz-questions">
+            <h3 class="ask"></h3>
+            <!-- Defining our Multiple Choices -->
+            <div class="choices">
+                <div class="choice1"></div>
+                <div class="choice2"></div>
+                <div class="choice3"></div>
+                <div class="choice4"></div>
+            </div>
+        </div>
+        <!--div for logging the highest score in the quiz-->
+        <div class="highest-score">
+            <h3>All done!</h3>
+            <div class="final-score"></div>
+            <br>
+            <!-- Creating the Box where you need to enter your initials -->
+            <div>Enter initials:</div><input type="text" name="initials" id="initials">
+            <!-- Submit Button Tag -->
+            <button class="submit">Submit</button>
+        </div>
+        <!-- Defining Correct and Wrong classes -->
+        <div class="correct">Correct!</div>
+        <div class="wrong">Wrong!</div>
+        <!--div for high score bank-->
+        <div class="bank-score">
+            <h3>High Scores</h3>
+            <ol id="score-data"></ol>
+            <!-- Back and Clear High Scores Button Tags -->
+            <button class="back">Go back</button>
+            <button class="clear">Clear high scores</button>
+        </div>
     </main>
 </body>
