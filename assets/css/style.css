@@ -75,7 +75,7 @@ a:hover {
 }
 
 /* Multiple Choice Properties */
-.choice1, .choice2, .choice3, .choice4 {
+.choice1, .choice2 {
     display: block;
     width: 100%;
     padding: 5px;
@@ -86,7 +86,7 @@ a:hover {
 }
 
 /* Multiple Choice hover Background Color */
-.choice1:hover, .choice2:hover, .choice3:hover, .choice4:hover {
+.choice1:hover, .choice2:hover {
     background-color: #a14ec8;
 }
 
