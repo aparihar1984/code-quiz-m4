@@ -3,6 +3,9 @@
 var timeEl = document.querySelector("#quiz-timer");
 var timeLeft = 60;
 var timerInterval = 0;
+// Variables Needed to Go From The Intro Page to The Question Page(s)
+var introPage = document.querySelector("#intro-page");
+var quiz = document.querySelector(".quiz-questions");
 
 // Variable(s) needed for the EventListener
 // Select Elements By Class
@@ -19,10 +22,12 @@ function setTime() {
             clearInterval(timerInterval);
             logScore();
         }
-    // Number of Milliseconds
+    // Number of MilliSeconds
     }, 1000);
 
-    coverPage.innerHTML = "";
+    // Code Needed to Take The User From the Intro Page to The Question Page(s)
+    // Once The Timer Has Started/Start Quiz Button Has Been Clicked
+    introPage.innerHTML = "";
 
     quiz.setAttribute("style", "display:block");
     switchContent();
