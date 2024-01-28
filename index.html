@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz Webpage</title>
+    <!-- Linking the HTML Page to the CSS Page -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -31,10 +32,10 @@
             <button class="start-quiz">Start Quiz</button>
         </div>
         <!---div for quiz questions and multiple choice selections-->
-        <div id="quiz-questions">
+        <div class="quiz-questions">
             <h3 class="ask"></h3>
             <!-- Defining our Multiple Choices -->
-            <div class="choices">
+            <div id="choices">
                 <div class="choice1"></div>
                 <div class="choice2"></div>
                 <div class="choice3"></div>
@@ -55,7 +56,7 @@
         <div class="correct">Correct!</div>
         <div class="wrong">Wrong!</div>
         <!--div for high score bank-->
-        <div class="bank-score">
+        <div id="bank-score">
             <h3>High Scores</h3>
             <ol id="score-data"></ol>
             <!-- Back and Clear High Scores Button Tags -->
@@ -63,4 +64,7 @@
             <button class="clear">Clear high scores</button>
         </div>
     </main>
+    <!-- Linking the HTML Page to the JavaScript Page -->
+    <script src="./assets/js/script.js"></script>
 </body>
+</html>
