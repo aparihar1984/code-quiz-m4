@@ -1,4 +1,4 @@
-<!-- Defining what DOCTYPE we're using.  HTML in this case. -->
+<!-- Defining what DOCTYPE we're using. HTML in this case. -->
 <!DOCTYPE html>
 <!-- Defining the language: English -->
 <html lang="en"> 
@@ -13,57 +13,38 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <!--site header function that features "View high scores" and Timer-->
+    <!--Website Header Function That Features "View High Scores" Link and Timer In Opposite Corners-->
     <header>
         <!-- Link and to view the High Scores -->
-        <a href="#score-save">View high scores</a>
+        <a href="#score-save">View High Scores</a>
         <div id="quiz-timer">Time: 0</div>
     </header>
     <br>
     <main>
-        <!--div for intro page-->
+        <!--div Tag For Multiple Choice Quiz Introduction Page-->
         <div id ="intro-page">
-            <!-- Intro Page Heading -->
+            <!-- Intro Page Secondary Heading -->
             <h2>Coding Quiz Challenge</h2>
-            <!-- Intro Page Text -->
+            <!-- Intro Page Paragraph Text -->
             <p>Try to answer the following code-related questions within the time limit.</p>
             <p>Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
             <!-- Start Quiz Button Tag -->
             <button class="start-quiz">Start Quiz</button>
         </div>
-        <!---div for quiz questions and multiple choice selections-->
+        <!---div Tags For Quiz Questions And Multiple Choice Selections-->
         <div class="quiz-questions">
             <h3 class="ask"></h3>
-            <!-- Defining our Multiple Choices -->
+            <!-- div Tags For The Multiple Choice Selections -->
             <div id="choices">
                 <div class="choice1"></div>
                 <div class="choice2"></div>
-                <!-- Removed These Options Due To Time Costraints -->
-                <!-- <div class="choice3"></div> -->
-                <!-- <div class="choice4"></div> -->
+                <div class="choice3"></div>
+                <div class="choice4"></div>
             </div>
         </div>
-        <!--div for logging the highest score in the quiz-->
-        <div class="highest-score">
-            <h3>All done!</h3>
-            <div class="final-score"></div>
-            <br>
-            <!-- Creating the Box where you need to enter your initials -->
-            <div>Enter initials:</div><input type="text" name="initials" id="initials">
-            <!-- Submit Button Tag -->
-            <button class="submit">Submit</button>
-        </div>
-        <!-- Defining Correct and Wrong classes -->
+        <!-- div Tags For Each Scenario (Correct Answer Or Incorrect Answer) -->
         <div class="correct">Correct!</div>
         <div class="wrong">Wrong!</div>
-        <!--div for high score bank-->
-        <div id="bank-score">
-            <h3>High Scores</h3>
-            <ol id="score-data"></ol>
-            <!-- Back and Clear High Scores Button Tags -->
-            <button class="back">Go back</button>
-            <button class="clear">Clear high scores</button>
-        </div>
     </main>
     <!-- Linking the HTML Page to the JavaScript Page -->
     <script src="./assets/js/script.js"></script>
