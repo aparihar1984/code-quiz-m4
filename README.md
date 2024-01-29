@@ -43,19 +43,19 @@ I was not able to properly complete all that was asked for in the Acceptance Cri
 ## Screenshots
 Here are the screenshots from when I started the quiz by clicking the "Start Quiz" button:
 
-![Alt text](".Screenshots/Starting Quiz Screenshot.png")
+![Alt text](https://github.com/aparihar1984/code-quiz-m4/blob/main/Screenshots/Starting%20Quiz%20Screenshot.png)
 
-![Alt text](".Screenshots/Question 1 Screenshot.png")
+![Alt text](https://github.com/aparihar1984/code-quiz-m4/blob/main/Screenshots/Question%201%20Screenshot.png)
 
-![Alt text](".Screenshots/Question 2 Screenshot.png")
+![Alt text](https://github.com/aparihar1984/code-quiz-m4/blob/main/Screenshots/Question%202%20Screenshot.png)
 
-![Alt text](".Screenshots/Question 3 Screenshot.png")
+![Alt text](https://github.com/aparihar1984/code-quiz-m4/blob/main/Screenshots/Question%203%20Screenshot.png)
 
-![Alt text](".Screenshots/Question 4 Screenshot.png")
+![Alt text](https://github.com/aparihar1984/code-quiz-m4/blob/main/Screenshots/Question%204%20Screenshot.png)
 
-![Alt text](".Screenshots/Question 5 Screenshot.png")
+![Alt text](https://github.com/aparihar1984/code-quiz-m4/blob/main/Screenshots/Question%205%20Screenshot.png)
 
-![Alt text](".Screenshots/Ending Quiz Screenshot.png")
+![Alt text](https://github.com/aparihar1984/code-quiz-m4/blob/main/Screenshots/Ending%20Quiz%20Screenshot.png)
 
 
 ## Deployment/Website Link:
