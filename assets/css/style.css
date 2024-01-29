@@ -1,60 +1,59 @@
-/* WebPage Font and Cursor Properties */
+/* WebPage Text Font and Cursor Properties */
 * {
     font-family: Arial, Helvetica, sans-serif;
     cursor: default;
 }
 
-/*Intro Page Styling Properties*/
+/*Intro Page Text Alignment*/
 #intro-page {
     text-align: center;
 }
 
 /* "Start Quiz" Button Properties */
 .start-quiz {
-    padding: 10px;
-    background-color: rgb(109, 8, 109);
+    padding: 30px;
+    background-color: rgb(34, 138, 77);
     color: white;
-    border-radius: 5px;
+    border-radius: 30px;
     width: max-content;
 }
 
 /* "Start Quiz" Button Hovering Background Color */
 .start-quiz:hover {
-    background-color: #a14ec8;
+    background-color: #07f653;
 }
 
-/*Header Styling Properties*/
+/*Distance Between Header Text And "Intro Page" Text and Button*/
 header {
-    height: 75px;
+    height: 70px;
 }
 
-/* "View High Scores" Link Styling Properties */
+/* "View High Scores" Link Location And Color Properties */
 header a {
     float: left;
     padding: 20px;
-    color: rgb(109, 8, 109);
+    color: rgb(34, 138, 77);
 }
 
-/* Removes Underline from "View High Scores" link */
+/* Removing Underline from "View High Scores" link */
 a:link {
     text-decoration: none;
 }
 
 /* "View High Scores" Link Hovering Background Color */
 a:hover {
-    color: #a14ec8;
+    color: #07f653;
 }
 
-/* Quiz Timer Properties */
+/* Quiz Timer Location Properties */
 #quiz-timer {
     float: right;
     padding: 20px;
 }
 
-
-
 /* Questions Page Styling Properties*/
-/* Text Alignment and Margins Settings For "Quiz-Questions" Class */
+
+/* Text Alignment and Margin Settings For Quiz Questions And Multiple Choice Selections */
 .quiz-questions {
     text-align: left;
     margin-left: 25%;
@@ -62,126 +61,41 @@ a:hover {
     display: none;
 }
 
-/* Margin and Height Properties for <h3> which is .ask in this case */
+/* Margin and Spacing Properties for <h3> (Quiz Questions And Multiple Choice Selections In Our Case) */
 .ask {
     margin: 5px;
     height: 50px;
 }
 
-/* Choice Class Display and Padding Properties */
+/* Multiple Choice Selections Button Display (Length) And Padding Properties */
 #choices {
     display: inline-block;
     padding: 5px;
 }
 
-/* Multiple Choice Properties */
-.choice1, .choice2 {
+/* Multiple Choice Selections Button Properties */
+.choice1, .choice2, .choice3, .choice4 {
     display: block;
     width: 100%;
     padding: 5px;
-    background-color: rgb(109, 8, 109);
+    background-color: rgb(34, 138, 77);
     color: white;
     border-radius: 5px;
     margin-bottom: 5px;
 }
 
-/* Multiple Choice hover Background Color */
-.choice1:hover, .choice2:hover {
-    background-color: #a14ec8;
+/* Multiple Choice Selections Button Hover Background Color */
+.choice1:hover, .choice2:hover, .choice3:hover, .choice4:hover {
+    background-color: #07f653;
 }
 
-
-/* Properties for right and wrong classes */
+/* Properties For Correct (If Question Was Answered Correctly) and Wrong (If Question Was Answered Incorrectly) Display */
+/* After Each Question */
 .correct, .wrong {
     text-align: left;
     margin-left: 25%;
     margin-right: 25%;
-    border-top: solid 1px #3e3c3c;
     margin-top: 25px;
-    color: #3e3c3c;
-    opacity: .5;
+    color: black;
     display: none;
-}
-
-/* Styling Properties for Logging "Highest Score"*/
-.highest-score {
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-    display: none;
-}
-
-/* Styling Properties for "All Done" heading in Highest Score class */
-.highest-score h3 {
-    margin: 0px;
-    padding-bottom: 10px;
-}
-
-/* "Final Score" class padding properties */
-.final-score {
-    padding-bottom: 10px;
-}
-
-/* "Highest Score" class display properties */
-.highest-score div {
-    display: inline-block;
-    padding-right: 5px;
-}
-
-/* "Submit" Button Styling Properties */
-.submit {
-    padding: 5px;
-    margin-left: 5px;
-    background-color: rgb(109, 8, 109);
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-
-/* "Submit" Button hover background color */
-.submit:hover {
-    background-color: #a14ec8;
-}
-
-/*Styling Properties for "Bank Score" id*/
-#bank-score {
-    text-align: left;
-    margin-left: 33%;
-    margin-right: 33%;
-    display: none;
-}
-
-/* Margin and Padding Properties */
-#bank-score h3 {
-    margin: 0px;
-    padding-bottom: 10px;
-}
-
-/* "Score Data" ordered list (ol) Margins and Padding Properties */
-#score-data {
-    margin-top: 0px;
-    margin-bottom: 15px;
-    padding-left: 25px;
-    width: 100%;
-}
-
-
-
-/* "Back" and "Clear" Button Styling Properties */
-.back, .clear {
-    padding: 5px;
-    background-color: rgb(109, 8, 109);
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-
-/* "Back" and "Clear" Button Hover Background Color */
-.back:hover, .clear:hover {
-    background-color: #a14ec8;
-}
-
-/* "Back" Button Margin Property */
-.back {
-    margin-right: 5px;
 }
