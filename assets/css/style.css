@@ -28,23 +28,6 @@ header {
     height: 70px;
 }
 
-/* "View High Scores" Link Location And Color Properties */
-header a {
-    float: left;
-    padding: 20px;
-    color: rgb(34, 138, 77);
-}
-
-/* Removing Underline from "View High Scores" link */
-a:link {
-    text-decoration: none;
-}
-
-/* "View High Scores" Link Hovering Background Color */
-a:hover {
-    color: #07f653;
-}
-
 /* Quiz Timer Location Properties */
 #quiz-timer {
     float: right;
