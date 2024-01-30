@@ -36,7 +36,7 @@ The process of coding for me involved using code from the activities and website
 
 This led to a lot of experimentation in order to see what I felt was needed to ultimately complete as much of the Acceptance Criteria of the assignment as I could.
 
-The experimentation was necessary since it should be pointed out that while the code given on the above referenced websites was very helpful, the code given DOES NOT completely accomplish everything that was asked for in the Acceptance Criteria.
+The experimentation was necessary since it should be pointed out that while the code given on the above referenced websites was very helpful, the code given DOES NOT completely accomplish everything that was asked for in the Acceptance Criteria.  It should also be noted that simply copying and pasting code without understanding what that code does will lead to more complications.
 
 I was not able to properly complete all that was asked for in the Acceptance Criteria.  I was unable to understand the coding from the previously mentioned websites for when the quiz is over and the user needs to save their initials and score, thus I was unable to generate that code.  You will not find that part of the Acceptance Criteria in my assignment.
 
